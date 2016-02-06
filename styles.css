@@ -1,0 +1,99 @@
+/*************
+GENERAL
+*************/
+
+
+
+h1, h2, h3, h4, h5{
+	font-family: 'Dosis', sans-serif;
+	text-align: center;
+}
+
+p {
+	font-family: 'Dosis', sans-serif;
+	text-align: center;
+}
+
+.logo {
+	font-family: 'Dosis', sans-serif; 
+	text-align:left;
+	padding:50px 0 40px 10px;
+	border:2px solid #9acf3e;
+	border-radius: 10px;
+	background-color: #9acf3e;
+	color:#3e69cf;
+}
+
+/*************
+NAVIGATION 
+************/
+nav{
+	text-align: center;
+	border:2px solid #bd7604;
+	border-radius:10px;
+	background-color:#bd7604;
+}
+
+nav ul {
+
+	list-style-type: none;
+}
+
+nav li {
+	display:inline-block;
+}
+
+nav a{
+	text-decoration: none;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.5em;
+	color:#fce700;
+	padding:15px 60px ;
+
+}
+
+
+
+
+/*************
+HEADER
+************/
+
+.hdrimg {
+	float:right;
+	
+	max-width: 20%;
+	max-height: 8%;
+}
+
+
+/*******
+COLORS
+******/
+
+
+/* Site Body */
+
+body {
+	background-color: #ede72b;
+}
+
+
+/* Site Header*/
+
+header {
+	background-color: #ede72b;
+}
+
+/*Site Footer*/
+footer {
+	background-color: #8da387;
+}
+
+nav a:visited {
+	color:#fff;
+}
+
+nav a:hover {
+	color:#3e69cf;
+}
