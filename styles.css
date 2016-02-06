@@ -87,7 +87,13 @@ header {
 
 /*Site Footer*/
 footer {
-	background-color: #8da387;
+	margin: 2.5em auto 0 auto;
+	border: 7px dotted #BD7604;
+	background-color: #ede72b;
+	border-radius: 50%;
+	padding-top: 1.2em;
+	padding-bottom: 1.2em;
+	max-width: 85%;
 }
 
 nav a:visited {
