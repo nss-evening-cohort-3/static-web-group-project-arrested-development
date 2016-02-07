@@ -14,20 +14,34 @@ p {
 	text-align: center;
 }
 
-.logo {
+/*BANNER*/
+.bluthbanner {
 	font-family: 'Dosis', sans-serif; 
-	text-align:left;
-	padding:50px 0 40px 10px;
+	padding:15px 0 15px 10px;
 	border:2px solid #9acf3e;
 	border-radius: 10px;
 	background-color: #9acf3e;
 	color:#3e69cf;
+	
 }
+
+img.dancingb1 {
+	height:175px;
+	width:175px;
+	float:left;
+}
+
+img.dancingb2 {
+	height:175px;
+	width:175px;
+	float:right;
+}
+
 
 /*************
 NAVIGATION 
 ************/
-nav{
+nav {
 	text-align: center;
 	border:2px solid #bd7604;
 	border-radius:10px;
@@ -43,7 +57,7 @@ nav li {
 	display:inline-block;
 }
 
-nav a{
+nav a {
 	text-decoration: none;
 	font-family: 'Dosis', sans-serif;
 	font-size: 1.5em;
@@ -60,10 +74,12 @@ HEADER
 ************/
 
 .hdrimg {
-	float:right;
+	/*float:center;*/
+	max-width: 32%;
+	max-height: 10%;
+	margin-left:275px;
+	border-radius: 20px;
 	
-	max-width: 20%;
-	max-height: 8%;
 }
 
 
@@ -76,6 +92,13 @@ COLORS
 
 body {
 	background-color: #ede72b;
+}
+nav a:visited {
+	color:#fff;
+}
+
+nav a:hover {
+	color:#3e69cf;
 }
 
 
@@ -96,10 +119,35 @@ footer {
 	max-width: 85%;
 }
 
-nav a:visited {
-	color:#fff;
+
+
+
+/*****************
+EMPLOYEES PAGE
+******************/
+
+
+/*Employee Images*/
+.employees{
+	max-width:100%;
+	padding:0;
+
 }
 
-nav a:hover {
-	color:#3e69cf;
+.employees span{
+float:left;
+
 }
+
+.employees img{
+	height:150px;
+	width:240px;
+	margin: 2.5%;
+    border-radius:200%;
+}
+
+
+/*************
+PRODUCTS PAGE
+************/
+
