@@ -150,3 +150,67 @@ EMPLOYEES PAGE
 PRODUCTS PAGE
 ************/
 
+article.product1 {
+   max-width: 20%;
+   border: 1px solid black;
+   text-align: center;
+   background-color:#F1E5C1  ;
+}
+
+article h3 {
+   border: 1px dotted black;
+   text-align:center;
+}
+
+/*article p {
+   text-align: center;
+}
+
+div.image{
+   height: 150px;
+   width: 240px;
+}
+*/
+
+.product-grid {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: bottom;
+}
+
+.product {
+   background-color: #F1E5C1  ;
+   border: 2px white solid;
+   width: 300px;
+   height: 400px;
+   display: inline-block;
+   float:left;
+}
+
+.product article {
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   padding-left: auto;
+   padding-right: auto;
+
+}
+.product img {
+   /*margin-right: auto;*/
+   /*margin-left: auto;*/
+   width: 210px;
+   height: 200px;
+}
+
+/*#row1 {
+   min-width:100%;
+   padding:0;
+   margin:0;
+   display:inline;
+   float:right;
+}*/
+
+p.price {
+   border:1px dotted black;
+}
