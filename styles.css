@@ -149,4 +149,27 @@ EMPLOYEES PAGE
 /*************
 PRODUCTS PAGE
 ************/
+.productGrid1 {
+	max-width: 22%;
+	float: left;
+	margin-left: 20%;
+}
+
+.productGrid2 {
+	max-width: 22%;
+	float: right;
+	margin-right: 20%;
+}
+
+p.description {
+	margin-bottom: 3em;
+       
+}
+/*****************
+ABOUT US PAGE
+******************/
+img.aboutUsImg {
+	display: block;
+	margin: 5% auto;
+}
 
