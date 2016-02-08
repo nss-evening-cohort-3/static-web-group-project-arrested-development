@@ -2,8 +2,6 @@
 GENERAL
 *************/
 
-
-
 h1, h2, h3, h4, h5{
 	font-family: 'Dosis', sans-serif;
 	text-align: center;
@@ -22,7 +20,6 @@ p {
 	border-radius: 10px;
 	background-color: #9acf3e;
 	color:#3e69cf;
-	
 }
 
 img.dancingb1 {
@@ -63,7 +60,6 @@ nav a {
 	font-size: 1.5em;
 	color:#fce700;
 	padding:15px 60px ;
-
 }
 
 
@@ -74,12 +70,10 @@ HEADER
 ************/
 
 .hdrimg {
-	/*float:center;*/
 	max-width: 32%;
 	max-height: 10%;
 	margin-left:275px;
-	border-radius: 20px;
-	
+	border-radius: 20px;	
 }
 
 
@@ -110,13 +104,14 @@ header {
 
 /*Site Footer*/
 footer {
-	margin: 2.5em auto 0 auto;
+	margin: 0 auto 0 auto;
 	border: 7px dotted #BD7604;
 	background-color: #ede72b;
 	border-radius: 50%;
 	padding-top: 1.2em;
 	padding-bottom: 1.2em;
 	max-width: 85%;
+	clear: both;
 }
 
 
@@ -129,23 +124,27 @@ EMPLOYEES PAGE
 
 /*Employee Images*/
 .employees{
-	max-width:100%;
-	padding:0;
-
-}
-
-.employees span{
-float:left;
-
+	min-width: 85%;
+	padding: 0;
 }
 
 .employees img{
-	height:150px;
-	width:240px;
-	margin: 2.5%;
-    border-radius:200%;
+   height: 150px;
+   width: 240px;
+   border
+   margin: 2.5%;
+   border-radius: 200%;
 }
 
+.column1 {
+  float: left;
+  margin-left: 20%;
+}
+
+.column2 {
+  float: right;
+  margin-right: 20%;
+}
 
 /*************
 PRODUCTS PAGE
