@@ -12,6 +12,10 @@ p {
 	text-align: center;
 }
 
+.textcontent {
+   margin: 0 15% 0 15%;
+}
+
 /*BANNER*/
 .bluthbanner {
 	font-family: 'Dosis', sans-serif; 
@@ -23,12 +27,14 @@ p {
 }
 
 img.dancingb1 {
+   display: block;
 	height:175px;
 	width:175px;
 	float:left;
 }
 
 img.dancingb2 {
+   display: block;
 	height:175px;
 	width:175px;
 	float:right;
@@ -105,7 +111,7 @@ header {
 /*Site Footer*/
 footer {
 	margin: 0 auto 0 auto;
-	margin-top: 10px;
+	margin-top: 10%;
 	border: 7px dotted #BD7604;
 	background-color: #ede72b;
 	border-radius: 50%;
@@ -125,6 +131,7 @@ EMPLOYEES PAGE
 
 /*Employee Images*/
 .employees{
+   margin-bottom: 50%;
 	min-width: 85%;
 	padding: 0;
 }
@@ -164,16 +171,6 @@ article h3 {
    text-align:center;
 }
 
-/*article p {
-   text-align: center;
-}
-
-div.image{
-   height: 150px;
-   width: 240px;
-}
-*/
-
 .product-grid {
    display: inline-block;
    margin-left: auto;
@@ -209,14 +206,6 @@ div.image{
    width: 210px;
    height: 200px;
 }
-
-/*#row1 {
-   min-width:100%;
-   padding:0;
-   margin:0;
-   display:inline;
-   float:right;
-}*/
 
 p.price {
    border:1px dotted lightblue;
