@@ -180,14 +180,13 @@ div.image{
    margin-right: auto;
    margin-top: 5px;
    margin-bottom: 15px;
-   
 }
 
 .product {
    background-color: #F1E5C1  ;
    border: 4px white solid;
-   width: 300px;
-   height: 400px;
+   width: 250px;
+   height: 350px;
    margin-right: 20px;
    margin-left: 20px;
    display: inline-block;
@@ -206,8 +205,8 @@ div.image{
 .product img {
    /*margin-right: auto;*/
    /*margin-left: auto;*/
-   width: 210px;
-   height: 200px;
+   width: 180px;
+   height: 170px;
 }
 
 /*#row1 {
